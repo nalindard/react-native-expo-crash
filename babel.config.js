@@ -5,6 +5,8 @@ module.exports = function (api) {
     plugins: [
       // Required for expo-router
       'expo-router/babel',
+      'nativewind/babel',
+      // { tailwindConfig: "./tailwind.native.config.js" }
     ],
   };
 };
